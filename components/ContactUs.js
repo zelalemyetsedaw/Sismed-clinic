@@ -9,7 +9,7 @@ const ContactUs = () => {
         <div>
           <h1 className="text-4xl md:text-5xl font-bold"> Contact Us </h1>
           <p className="text-gray-400 md:px-4 px-0 text-md md:text-lg pt-4">
-          Have questions or need assistance? We're here to help. Reach out to us, and our team will respond promptly to provide the support you need.
+          Have questions or need assistance? We&apos;re here to help. Reach out to us, and our team will respond promptly to provide the support you need.
           </p>
         </div>
 
