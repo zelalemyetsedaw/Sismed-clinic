@@ -68,10 +68,10 @@ const AppointmentForm = () => {
   return (
     <div className="bg-[#F8F9FA] w-full md:w-2/5 md:mb-0 mb-0">
       <form
-        className="w-full md:mx-0  md:w-4/5 h-full pr-6 bg-white pl-4 md:pl-10 pt-20"
+        className="w-full md:mx-0  md:w-4/5 h-full pr-6 bg-white pl-8 md:pl-10 pt-20"
         onSubmit={sendEmail}
       >
-        <h1 className="text-2xl text-blue-400 font-bold mb-6"> Appointment Form </h1>
+        <h1 className="text-2xl pl-6 text-blue-400 font-bold mb-6"> Appointment Form </h1>
 
         <input
           type="text"
@@ -116,7 +116,8 @@ const AppointmentForm = () => {
         <input
           type="date"
           name="date"
-          value={formData.date}
+          placeholder="Date"
+          value={formData.date || ""}
           onChange={handleChange}
           className="w-11/12 p-4 mb-5 rounded-full border border-spacing-2"
           required
@@ -125,7 +126,8 @@ const AppointmentForm = () => {
         <input
           type="time"
           name="time"
-          value={formData.time}
+          placeholder="Time"
+          value={formData.time || ""}
           onChange={handleChange}
           className="w-11/12 p-4 mb-5 rounded-full border border-spacing-2"
           required
