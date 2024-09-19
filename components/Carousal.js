@@ -1,4 +1,3 @@
-// import { useState, useEffect } from 'react';
 'use client'
 import Image from "next/image";
 import { useEffect, useState } from "react";
@@ -33,12 +32,12 @@ const Carousel = ({ images }) => {
               }`}
             >
               <Image
-                style={{color: "white"}}
+                
                 src={image}
                 className=" object-cover h-full w-full"
                 width={500}
                 height={600}  // Adjusted height
-                alt={`Slide ${index + 1}`}
+                alt={`Clinic image ${index + 1}`}
               />
               
             </div>

@@ -1,6 +1,6 @@
-import React from "react";
 
 import Carousel from "./Carousal";
+import Link from "next/link";
 const images = [
   "https://drive.google.com/uc?export=view&id=1pndlDqCuwcdPSdp9lH--Nfoyga7qQoae",
   "https://drive.google.com/uc?export=view&id=1HhIwv4r_OJFecjUKMspeuOUmeOy73nqE",
@@ -10,15 +10,15 @@ const images = [
 ];
 
 const About = () => {
+  
   return (
-    <div className="">
+    <div id="about" className="">
       <div
-        id="about"
+        
         className="About flex flex-col md:flex md:flex-row lg:flex w-full lg:w-3/4 lg:px-0 px-10 lg:m-auto gap-10 items-center"
       >
         <div className=" lg:w-1/2 md:w-1/2  w-full   ">
           <Carousel images={images} />
-          {/* <img src="https://www.ayushmann.org/images/about/02.jpg" alt="" className='object-cover h-full  lg:h-full md:h-[800px] '/> */}
         </div>
         <div className=" lg:w-1/2 md:w-1/2 md:py-20 py-0 w-full">
           <h2 className="text-4xl md:text-5xl lg:text-5xl font-extrabold">
@@ -28,17 +28,26 @@ const About = () => {
           </h2>
           <p className="pt-7 pb-5 text-gray-500">
             {" "}
-            Sismed Clinic is a community-focused healthcare provider offering a wide range of medical services. With our highly qualified professionals and state-of-the-art facilities, we ensure personalized care for every patient. Your well-being is our commitment, and we strive to deliver reliable, top-tier healthcare services to all
+            Sismed Clinic is a community-focused healthcare provider offering a
+            wide range of medical services. With our highly qualified
+            professionals and state-of-the-art facilities, we ensure
+            personalized care for every patient. Your well-being is our
+            commitment, and we strive to deliver reliable, top-tier healthcare
+            services to all
           </p>
           <div className="lg:flex lg:flex-row flex flex-col gap-y-3">
-            <button className="mr-3 bg-[#207DFF] text-white p-5 rounded-full">
-              {" "}
-              Make an appointment{" "}
-            </button>
-            <button className="bg-[#FE5F55] text-white p-5 rounded-full">
-              {" "}
-              Contact us{" "}
-            </button>
+            <Link href="#appointment" scroll={true}>
+              <button className="mr-3 bg-[#207DFF] text-white p-5 rounded-full">
+                {" "}
+                Make an appointment{" "}
+              </button>
+            </Link>
+            <Link href="#contactus" scroll={true}>
+              <button className="bg-[#FE5F55] text-white p-5 rounded-full">
+                {" "}
+                Contact us{" "}
+              </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
+import Link from 'next/link'
 import React from 'react'
-import { FaAmbulance, FaLongArrowAltRight } from 'react-icons/fa'
+import {  FaEnvelope, FaFacebook, FaInstagram, FaLongArrowAltRight, FaMapMarkerAlt, FaPhoneAlt, FaTwitter } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -7,68 +8,72 @@ const Footer = () => {
         <div className=" bg-gray-100">
         <div className="md:flex md:flex-row md:flex-wrap flex flex-col  justify-around py-24 px-10 gap-12">
           <div className="w-full  md:w-1/6 flex flex-col gap-y-12">
-            <h1 className="text-xl font-bold"> Sismed </h1>
+            <h1 className="text-xl font-bold"> Sismed Medium Clinic</h1>
             <p>
               {" "}
-              Far far away, behind the word mountains, far from the countries.
+              We provide top-notch healthcare solutions tailored to your needs. Your well-being is our mission.
             </p>
             <div className="flex flex-wrap gap-2">
               <div className="flex justify-center  rounded-full w-14 h-14 p-4 text-center bg-blue-500 ">
-                <FaAmbulance size={30} color="white " />
+                <FaInstagram size={30} color="white " />
               </div>
               <div className="flex justify-center  rounded-full w-14 h-14 p-4 text-center bg-blue-500 ">
-                <FaAmbulance size={30} color="white " />
-              </div>
-              <div className="flex justify-center  rounded-full w-14 h-14 p-4 text-center bg-blue-500 ">
-                <FaAmbulance size={30} color="white " />
+                <FaFacebook size={30} color="white " />
               </div>
             </div>
           </div>
 
           <div className="w-full md:w-1/6 flex flex-col gap-y-10">
-            <h1 className="text-xl font-bold"> Departments </h1>
+            <h1 className="text-xl font-bold"> Services </h1>
             <ul className="text-[#207DFF] flex flex-col gap-y-3 text-md">
               <li className="flex items-center ">
                 {" "}
                 <span className="mr-2">
                   <FaLongArrowAltRight />
                 </span>
-                Neurology{" "}
+                Gynecology{" "}
               </li>
               <li className="flex items-center ">
                 {" "}
                 <span className="mr-2">
                   <FaLongArrowAltRight />
                 </span>
-                Opthalmology{" "}
+                Obstetrics{" "}
               </li>
               <li className="flex items-center ">
                 {" "}
                 <span className="mr-2">
                   <FaLongArrowAltRight />
                 </span>
-                Nuclear Magnetic{" "}
+                Cardiac Disease{" "}
               </li>
               <li className="flex items-center ">
                 {" "}
                 <span className="mr-2">
                   <FaLongArrowAltRight />
                 </span>
-                Surgical{" "}
+                Adult Medical Service{" "}
               </li>
               <li className="flex items-center ">
                 {" "}
                 <span className="mr-2">
                   <FaLongArrowAltRight />
                 </span>
-                Cardiology{" "}
+                Minor Surgical Procedures{" "}
               </li>
               <li className="flex items-center ">
                 {" "}
                 <span className="mr-2">
                   <FaLongArrowAltRight />
                 </span>
-                Dental{" "}
+                Hypertension{" "}
+              </li>
+              <li className="flex items-center ">
+                {" "}
+                <span className="mr-2">
+                  <FaLongArrowAltRight />
+                </span>
+                Antenatal Care (ANC){" "}
               </li>
             </ul>
           </div>
@@ -76,46 +81,42 @@ const Footer = () => {
           <div className="w-full md:w-1/6 flex flex-col gap-y-10">
             <h1 className="text-xl font-bold"> Links </h1>
             <ul className="text-[#207DFF] flex flex-col gap-y-3 text-md">
+              
               <li className="flex items-center ">
                 {" "}
                 <span className="mr-2">
                   <FaLongArrowAltRight />
                 </span>
-                Home{" "}
+                <Link href="#home">Home{" "}</Link>
+              </li>
+              
+              <li className="flex items-center ">
+                {" "}
+                <span className="mr-2">
+                  <FaLongArrowAltRight />
+                </span>
+                <Link href="#about">About{" "}</Link>
               </li>
               <li className="flex items-center ">
                 {" "}
                 <span className="mr-2">
                   <FaLongArrowAltRight />
                 </span>
-                About{" "}
+                <Link href="#services">services{" "}</Link>
               </li>
               <li className="flex items-center ">
                 {" "}
                 <span className="mr-2">
                   <FaLongArrowAltRight />
                 </span>
-                Departments{" "}
+                <Link href="#contactus">Contactus{" "}</Link>
               </li>
-              <li className="flex items-center ">
-                {" "}
-                <span className="mr-2">
-                  <FaLongArrowAltRight />
-                </span>
-                Contact{" "}
-              </li>
-              <li className="flex items-center ">
-                {" "}
-                <span className="mr-2">
-                  <FaLongArrowAltRight />
-                </span>
-                Doctors{" "}
-              </li>
+              
             </ul>
           </div>
 
           <div className="w-full md:w-1/6 flex flex-col gap-y-10">
-            <h1 className="text-xl font-bold"> Services </h1>
+            <h1 className="text-xl font-bold"> General Services </h1>
             <ul className="text-[#207DFF] flex flex-col gap-y-3 text-md">
               <li className="flex items-center ">
                 {" "}
@@ -136,7 +137,7 @@ const Footer = () => {
                 <span className="mr-2">
                   <FaLongArrowAltRight />
                 </span>
-                Outdoors Checkup{" "}
+                Preventive Health Checkups{" "}
               </li>
               <li className="flex items-center ">
                 {" "}
@@ -153,21 +154,21 @@ const Footer = () => {
             <h1 className="text-xl font-bold"> Have a Questions? </h1>
             <div className="flex gap-6 pt-5">
               <div>
-                <FaAmbulance size={30} color="gray mr-2" />
+                <FaMapMarkerAlt size={20} color="gray mr-2" />
               </div>{" "}
               <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
             </div>
             <div className="flex gap-6 justify-start">
               <div>
-                <FaAmbulance size={30} color="gray mr-2" />
+                <FaPhoneAlt size={20} color="#207DFF" />
               </div>{" "}
-              <span className="text-[#207DFF]"> +2 392 3929 210 </span>
+              <span className="text-[#207DFF]"> +251 903 48 68 48 </span>
             </div>
             <div className="flex gap-6">
               <div>
-                <FaAmbulance size={30} color="gray mr-2" />
+                <FaEnvelope size={20} color="#207DFF" />
               </div>{" "}
-              <p className="text-[#207DFF]"> info@yourdomain.com</p>
+              <p className="text-[#207DFF] overflow-visible"> sismedmediumclinic</p>
             </div>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import React from "react";
-import { FaAmbulance } from "react-icons/fa";
+import { FaAmbulance, FaGlobe, FaMapSigns, FaPaperPlane, FaPhone, FaPhoneAlt } from "react-icons/fa";
+import ContactForm from "./ContactForm";
 
 const ContactUs = () => {
   return (
@@ -8,49 +9,46 @@ const ContactUs = () => {
         <div>
           <h1 className="text-4xl md:text-5xl font-bold"> Contact Us </h1>
           <p className="text-gray-400 md:px-4 px-0 text-md md:text-lg pt-4">
-            {" "}
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia{" "}
+          Have questions or need assistance? We're here to help. Reach out to us, and our team will respond promptly to provide the support you need.
           </p>
         </div>
 
         <div className="flex-wrap flex gap-7 justify-center">
           <div className="w-full mx-4 md:mx-0 md:w-2/5 lg:w-1/5 text-center p-10 bg-[#F8F9FA] items-center mt-10 flex flex-col gap-y-6">
             <div className="flex justify-center  rounded-full w-24 h-24 p-6 text-center bg-white ">
-              <FaAmbulance size={50} color="red " />
+              <FaMapSigns  size={40} color="#207DFF " />
             </div>
             <p className="text-lg"> ADDRESS </p>
             <p className="text-lg text-gray-400">
               {" "}
-              198 West 21th Street, Suite 721 New York NY 10016{" "}
+              Tullu Dimtu{" "}
             </p>
           </div>
 
           <div className="w-full mx-4 md:mx-0 md:w-2/5 lg:w-1/5 text-center p-10 bg-[#F8F9FA] items-center md:mt-10 flex flex-col gap-y-6">
             <div className="flex justify-center  rounded-full w-24 h-24 p-6 text-center bg-white ">
-              <FaAmbulance size={50} color="red " />
+              <FaPhoneAlt size={40} color="#207DFF " />
             </div>
             <p className="text-lg"> CONTACT NUMBER </p>
             <p className="text-lg text-gray-400">
               {" "}
-              + 1235 2355 98{" "}
+              +251 903 48 68 48{" "}
             </p>
           </div>
 
           <div className="w-full mx-4 md:mx-0 md:w-2/5 lg:w-1/5 text-center p-10 bg-[#F8F9FA] items-center md:mt-10 flex flex-col gap-y-6">
             <div className="flex justify-center  rounded-full w-24 h-24 p-6 text-center bg-white ">
-              <FaAmbulance size={50} color="red " />
+              <FaPaperPlane  size={40} color="#207DFF " />
             </div>
             <p className="text-lg"> EMAIL ADDRESS </p>
             <p className="text-lg text-gray-400">
-              {" "}
-              info@yoursite.com{" "}
+               sismedmediumclinic@gmail.com
             </p>
           </div>
 
           <div className="w-full mx-4 md:mx-0 md:w-2/5 lg:w-1/5 text-center p-10 bg-[#F8F9FA] items-center md:mt-10 flex flex-col gap-y-6">
             <div className="flex justify-center  rounded-full w-24 h-24 p-6 text-center bg-white ">
-              <FaAmbulance size={50} color="red " />
+              <FaGlobe  size={40} color="#207DFF " />
             </div>
             <p className="text-lg"> WEBSITE </p>
             <p className="text-lg text-gray-400">
@@ -70,36 +68,11 @@ const ContactUs = () => {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               style={{ border: 0 }}
-              className="h-full"
+              className="md:h-full h-72"
             ></iframe>
           </div>
 
-          <div className="pt-10 py-24 bg-gray-100 w-full md:w-1/2 flex flex-col gap-4 items-center ">
-            <input
-              type="text"
-              placeholder="Your Name"
-              className="w-3/4 border-2 p-4"
-            />
-            <input
-              type="text"
-              placeholder="Your Name"
-              className="w-3/4 border-2 p-4"
-            />
-            <input
-              type="text"
-              placeholder="Your Name"
-              className="w-3/4 border-2 p-4"
-            />
-            <textarea
-              type="text"
-              placeholder="Your Name"
-              className="w-3/4 border-2 p-4"
-            />
-            <button className="p-4 w-1/2 bg-[#FE5F55] rounded-full">
-              {" "}
-              Send Message{" "}
-            </button>
-          </div>
+          <ContactForm />
         </div>
       </div>
     </div>
