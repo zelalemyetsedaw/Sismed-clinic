@@ -68,7 +68,7 @@ const AppointmentForm = () => {
   return (
     <div className="bg-[#F8F9FA] w-full md:w-2/5 md:mb-0 mb-0">
       <form
-        className="w-full md:mx-0 mx-4 md:w-4/5 h-full pr-6 bg-white pl-10 pt-20"
+        className="w-full md:mx-0  md:w-4/5 h-full pr-6 bg-white pl-4 md:pl-10 pt-20"
         onSubmit={sendEmail}
       >
         <h1 className="text-2xl text-blue-400 font-bold mb-6"> Appointment Form </h1>

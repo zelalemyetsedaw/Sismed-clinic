@@ -12,9 +12,9 @@ const images = [
 const About = () => {
   
   return (
-    <div id="about" className="">
+    <div  className="pt-20">
       <div
-        
+        id="about"
         className="About flex flex-col md:flex md:flex-row lg:flex w-full lg:w-3/4 lg:px-0 px-10 lg:m-auto gap-10 items-center"
       >
         <div className=" lg:w-1/2 md:w-1/2  w-full   ">
@@ -37,13 +37,13 @@ const About = () => {
           </p>
           <div className="lg:flex lg:flex-row flex flex-col gap-y-3">
             <Link href="#appointment" scroll={true}>
-              <button className="mr-3 bg-[#207DFF] text-white p-5 rounded-full">
+              <button className="mr-3 bg-[#207DFF] w-full md:w-auto text-white p-5 rounded-full">
                 {" "}
                 Make an appointment{" "}
               </button>
             </Link>
             <Link href="#contactus" scroll={true}>
-              <button className="bg-[#FE5F55] text-white p-5 rounded-full">
+              <button className="bg-[#FE5F55] w-full md:w-auto text-white p-5 rounded-full">
                 {" "}
                 Contact us{" "}
               </button>
