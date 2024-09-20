@@ -156,7 +156,7 @@ const Footer = () => {
               <div>
                 <FaMapMarkerAlt size={20} color="gray mr-2" />
               </div>{" "}
-              <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+              <p>Tulu Dimtu, on the way to Alem Bank, in front of Green School.</p>
             </div>
             <div className="flex gap-6 justify-start">
               <div>

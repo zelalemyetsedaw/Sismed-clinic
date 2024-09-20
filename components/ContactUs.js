@@ -20,8 +20,7 @@ const ContactUs = () => {
             </div>
             <p className="text-lg"> ADDRESS </p>
             <p className="text-lg text-gray-400">
-              {" "}
-              Tullu Dimtu{" "}
+            Tulu Dimtu, on the way to Alem Bank, in front of Green School.
             </p>
           </div>
 
@@ -61,7 +60,7 @@ const ContactUs = () => {
         <div className="md:w-10/12 w-full  md:mx-auto   my-10  md:flex">
           <div className=" w-full md:w-1/2  bg-[#F8F9FA] ">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345090044!2d-122.41941548468143!3d37.774929779758795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085814dbe2fbf13%3A0x6e3c7b26cd9f1b9d!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sus!4v1639682240000!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d331.5769334215147!2d38.81477023947611!3d8.873467513555948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwNTInMjQuNyJOIDM4wrA0OCc1NC4zIkU!5e0!3m2!1sen!2set!4v1726834231063!5m2!1sen!2set"
               width="100%"
               height="450"
               allowFullScreen=""
