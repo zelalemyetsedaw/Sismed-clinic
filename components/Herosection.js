@@ -5,7 +5,7 @@ const Herosection = () => {
   return (
     <div
       id="home"
-      className=" content  h-full flex flex-col gap-5 items-start justify-center pt-32 pl-10 lg:pl-32 w-full md:w-1/2 "
+      className="content  h-full flex flex-col gap-5 items-start justify-center pt-32 pl-10 lg:pl-32 w-full md:w-1/2 "
     >
       <div className="text-[#207DFF] font-bold ">WELCOME TO SISMED</div>
       <div>
@@ -15,7 +15,7 @@ const Herosection = () => {
         </h1>
       </div>
       <div>
-        <p className="p-2 text-gray-500 text-sm md:text-md lg:text-lg">
+        <p className="p-2 text-white text-sm md:text-md lg:text-lg">
           At Sismed, we are dedicated to providing high-quality medical care
           with compassion.Whether you need urgent assistance or a routine
           checkup, our team is ready to support your health journey, 24/7.
