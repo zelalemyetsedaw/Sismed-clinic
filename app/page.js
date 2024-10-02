@@ -15,7 +15,7 @@ export default function Home() {
         <div
           style={{
             backgroundImage:
-              "linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url('https://res.cloudinary.com/ddwwi0vjk/image/upload/v1727271815/saveimage_we9nex.jpg')",
+              "linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url('https://res.cloudinary.com/ddwwi0vjk/image/upload/v1727643237/download_3_r2awde.jpg')",
           }}
           data-section="home"
           data-stellar-background-ratio="0.5"
